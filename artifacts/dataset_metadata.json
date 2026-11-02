@@ -1,0 +1,45 @@
+{
+  "feature_names": [
+    "energy_kcal",
+    "sugars_g",
+    "fat_g",
+    "saturated_fat_g",
+    "sodium_mg",
+    "proteins_g",
+    "fiber_g",
+    "fruits_veg_pct",
+    "is_beverage",
+    "additives_count"
+  ],
+  "grade_mapping": {
+    "A": 0,
+    "B": 1,
+    "C": 2,
+    "D": 3,
+    "E": 4
+  },
+  "inv_grade_mapping": {
+    "0": "A",
+    "1": "B",
+    "2": "C",
+    "3": "D",
+    "4": "E"
+  },
+  "class_names": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "total_samples": 1200,
+  "train_samples": 960,
+  "test_samples": 240,
+  "class_distribution": {
+    "C": 563,
+    "D": 307,
+    "B": 176,
+    "A": 78,
+    "E": 76
+  }
+}

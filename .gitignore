@@ -1,0 +1,25 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# CatBoost training logs
+catboost_info/
+
+# Office & OS temporary files
+~$*.pptx
+~$*.docx
+~$*.xlsx
+.DS_Store
+Thumbs.db
+
+# Streamlit local config
+.streamlit/secrets.toml
